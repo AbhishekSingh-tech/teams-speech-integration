@@ -20,7 +20,7 @@
     "websocket",
     "audio-processing"
   ],
-  "author": "Your Name",
+  "author": "AbhishekSingh",
   "license": "MIT",
   "dependencies": {
     "@microsoft/botbuilder": "^4.21.1",

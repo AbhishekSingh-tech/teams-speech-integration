@@ -1,0 +1,71 @@
+{
+  "name": "teams-onprem-speech-integration",
+  "version": "1.0.0",
+  "description": "Microsoft Teams integration for on-prem Speech-to-Speech workflow",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo 'No build step required for Node.js'",
+    "test": "jest",
+    "register-teams-app": "node scripts/register-teams-app.js",
+    "deploy": "node scripts/deploy.js",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "keywords": [
+    "microsoft-teams",
+    "bot-framework",
+    "speech-to-speech",
+    "websocket",
+    "audio-processing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@microsoft/botbuilder": "^4.21.1",
+    "@microsoft/botbuilder-ai": "^4.21.1",
+    "@microsoft/botbuilder-core": "^4.21.1",
+    "@microsoft/botbuilder-dialogs": "^4.21.1",
+    "@microsoft/botbuilder-teams": "^4.21.1",
+    "@microsoft/botframework-connector": "^4.21.1",
+    "@microsoft/botframework-streaming": "^4.21.1",
+    "@microsoft/teams-js": "^2.24.0",
+    "botbuilder-adapter-web": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "node-fetch": "^3.3.2",
+    "wav": "^1.0.2",
+    "audio-buffer": "^1.0.2",
+    "node-record-lpcm16": "^1.0.1",
+    "speaker": "^0.5.4",
+    "mic": "^2.1.2",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/teams-onprem-speech-integration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/teams-onprem-speech-integration/issues"
+  },
+  "homepage": "https://github.com/yourusername/teams-onprem-speech-integration#readme"
+} 
